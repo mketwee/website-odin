@@ -1,0 +1,129 @@
+html , body  {
+    height: 100vh;
+    margin: 0;
+    
+
+}
+
+.bodyz{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.header {
+
+background-color: brown;
+margin-bottom: 0;
+
+
+}
+
+.footer{
+    background-color: blueviolet;
+}
+
+.imgcon {
+    border: 2px solid blue;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 10%;
+    margin: auto;
+
+}
+
+button {
+    background-color: rgb(1, 112, 238);
+    color: #ffffff;
+    border-radius: 10%;
+    height: 20px;
+    border: none;
+}
+
+.carimage {
+    height: 250px;
+}
+
+.div1 , .div2 , .div3, .div4  {
+    padding: 30px 150px;
+}
+
+.header , .footer {
+    padding: 0 150px;
+}
+
+.div1text {
+    flex-shrink: auto;
+}
+
+.div1 {
+    background-color: #1f2937;
+    color: #ffffff;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+        
+}
+
+.div2 {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px auto;
+    
+    
+    
+        
+}
+
+.txt {
+    width: 100px;
+}
+
+.holder {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    /* justify-content: space-around; */
+ 
+    
+}
+.cards {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+   width: 100px;
+    color: rgb(87, 87, 87);
+    margin: 0;
+    
+    text-align: center;
+    
+}
+.div3 {
+    background-color: #c0c0c0;
+    font-style: italic;
+
+    
+}
+.yetext {
+    font-size: 30px;
+    color: rgb(22, 22, 22);
+}
+
+.div4 {
+    background-color: #ffffff;
+    
+}
+
+.call2a {
+    background-color: rgb(3, 142, 235);
+    color: #ffffff;
+}
+
+
+
+ 
