@@ -17,21 +17,26 @@ html , body  {
 
 .header {
 
-background-color: brown;
+background-color: #1f2937;
 margin-bottom: 0;
+color: #ffffff;
 
 
 }
 
 .footer{
-    background-color: blueviolet;
+    background-color: #1f2937;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .imgcon {
     border: 2px solid blue;
     height: 100px;
     width: 100px;
-    background-color: aqua;
+    background-color: rgb(191, 214, 214);
     border-radius: 10%;
     margin: auto;
 
@@ -116,14 +121,32 @@ button {
 
 .div4 {
     background-color: #ffffff;
+    padding: 50px;
     
 }
 
 .call2a {
     background-color: rgb(3, 142, 235);
     color: #ffffff;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 
+.buttonw {
+    border: 1px solid #ffffff;
+    flex-shrink: 0;
+}
 
+ .call2txt {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
 
- 
+ }
+ span {
+    font-size: 20px;
+    font-weight: bold;
+ }
